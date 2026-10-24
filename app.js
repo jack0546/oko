@@ -1,5 +1,5 @@
 /* ==========================================================
-   ELITE CUTS BARBERSHOP — script.js
+   RATTY JNR BARBERSHOP — script.js
    Vanilla JavaScript — no dependencies
    ========================================================== */
 
@@ -13,7 +13,7 @@
 const WHATSAPP_NUMBER = '233552396937';
 
 // Business display name (used in messages)
-const BRAND_NAME = 'Elite Cuts Barbershop';
+const BRAND_NAME = 'RATTY JNR Barbershop';
 
 /* ==========================================================
    2. SERVICES DATA — EDIT PRICES & DESCRIPTIONS HERE
@@ -130,7 +130,7 @@ const testimonials = [
   {
     name: 'Joshua K.',
     role: 'First-time client',
-    text: 'Booked via WhatsApp and it was seamless. Walked in, got the exact cut I asked for. Elite Cuts has a customer for life.',
+    text: 'Booked via WhatsApp and it was seamless. Walked in, got the exact cut I asked for. RATTY JNR has a customer for life.',
   },
 ];
 
@@ -450,7 +450,7 @@ function initBarbers() {
       (barber) => `
       <article class="barber-card reveal">
         <div class="barber-img">
-          <img src="${barber.image}" alt="Portrait of ${barber.name}, barber at Elite Cuts" loading="lazy" />
+          <img src="${barber.image}" alt="Portrait of ${barber.name}, barber at RATTY JNR" loading="lazy" />
         </div>
         <div class="barber-body">
           <h3>${barber.name}</h3>
