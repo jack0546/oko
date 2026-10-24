@@ -23,7 +23,7 @@ const services = [
     name: 'Classic Haircut',
     price: 55,
     description: 'Timeless scissor & clipper cut tailored to your face shape.',
-    image: 'images/16.jpeg',
+    image: 'images/16.jpg',
   },
   {
     name: 'Low Fade',
